@@ -1,12 +1,12 @@
 from distutils.core import setup, Extension
 
 dme_sources = [
-     "DolphinProcess/DolphinAccessor.cpp",
-     "Common/MemoryCommon.cpp",
-     "MemoryWatch/MemWatchEntry.cpp",
-     "MemoryWatch/MemWatchTreeNode.cpp",
-     "CheatEngineParser/CheatEngineParser.cpp",
-     "MemoryScanner/MemoryScanner.cpp"
+     "Source/DolphinProcess/DolphinAccessor.cpp",
+     "Source/Common/MemoryCommon.cpp",
+     "Source/MemoryWatch/MemWatchEntry.cpp",
+     "Source/MemoryWatch/MemWatchTreeNode.cpp",
+     "SourceCheatEngineParser/CheatEngineParser.cpp",
+     "Source/MemoryScanner/MemoryScanner.cpp"
 ]
 
 internal = Extension('wiirpcinternal',
