@@ -9,7 +9,7 @@ dme_sources = [
      "MemoryScanner/MemoryScanner.cpp"
 ]
 
-internal = CMakeExtension('wiirpcinternal',
+internal = Extension('wiirpcinternal',
                     sources = dme_sources)
 
 setup(name="wiirpc", version="0.1", description="Discord Rich Presence for Wii Games", ext_modules=[internal])
